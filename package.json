@@ -1,0 +1,32 @@
+{
+  "name": "anthropic-bridge",
+  "version": "1.0.0",
+  "description": "Anthropic to OpenAI Format Translator for OpenRouter",
+  "main": "src/anthropic-bridge.js",
+  "scripts": {
+    "start": "node src/anthropic-bridge.js",
+    "dev": "node --watch src/anthropic-bridge.js",
+    "docker:build": "docker build -t anthropic-bridge .",
+    "docker:run": "docker run -p 3000:3000 --env-file ./.env anthropic-bridge",
+    "docker:compose:up": "docker-compose up -d",
+    "docker:compose:down": "docker-compose down",
+    "docker:compose:logs": "docker-compose logs -f"
+  },
+  "keywords": [
+    "claude",
+    "openrouter",
+    "translator",
+    "anthropic",
+    "openai"
+  ],
+  "author": "Marco Del Pin <marco.delpin@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcodelpin/anthropic-bridge.git"
+  },
+  "devDependencies": {}
+}

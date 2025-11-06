@@ -1,0 +1,7 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:3000",
+    "ANTHROPIC_MODEL": "anthropic/claude-sonnet-4"
+  },
+  "model": "anthropic/claude-sonnet-4"
+}

@@ -1,0 +1,61 @@
+# Smart Router v1.0 - Minimal .gitignore
+
+# === NODE.JS ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# === ENVIRONMENT ===
+.env
+.env.*
+!.env.example
+
+# === LOGS ===
+*.log
+/tmp/*
+!/tmp/.gitkeep
+logs/
+tests/results/
+
+# === BUILD OUTPUT ===
+build/
+dist/
+
+# === CACHE ===
+.eslintcache
+.npm
+.cache
+
+# === TEST COVERAGE ===
+coverage/
+.nyc_output
+*.lcov
+
+# === IDE/EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === LOCAL CONFIG ===
+~/.claude/settings/*.json
+claude-settings.json
+
+# === DOCKER ===
+.docker/
+docker-compose.override.yml
+
+# === PRODUCTION ===
+*.pid
+*.seed
+.pnp.*
+.nyc_output

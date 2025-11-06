@@ -1,0 +1,7 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:3000",
+    "ANTHROPIC_MODEL": "openai/gpt-4o"
+  },
+  "model": "openai/gpt-4o"
+}

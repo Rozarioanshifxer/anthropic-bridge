@@ -1,0 +1,7 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:3000",
+    "ANTHROPIC_MODEL": "qwen/qwen-2.5-coder-32b-instruct"
+  },
+  "model": "qwen/qwen-2.5-coder-32b-instruct"
+}

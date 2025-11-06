@@ -1,0 +1,37 @@
+# LXC Template Metadata
+
+architecture: amd64
+creation_date: 1730979840
+description: Anthropic Bridge - Anthropic to OpenAI Translator
+name: anthropic-bridge
+os: ubuntu
+privileged: no
+version: 1.0
+
+template: true
+template_format: 3
+
+[aliens]
+allow: no
+
+[environment]
+HOME: /root
+SHELL: /bin/bash
+
+[unprivileged]
+allow: 1
+
+[features]
+nesting: 1
+allow_restricted_alts: 0
+
+[devices]
+tun: allow=1
+pvp9p: allow=1
+
+[limit]
+max_cpus: 1
+max_mem: 512
+min_mem: 128
+max_disk: 4
+min_disk: 1
